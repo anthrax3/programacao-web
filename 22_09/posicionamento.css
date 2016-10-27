@@ -1,0 +1,48 @@
+/**
+ * Aplica o estilo padrão as classes
+ */
+.esqcima,
+.esqbaixo,
+.dircima,
+.dirbaixo
+ {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+
+/**
+ * Estilo do elemento esquerda/cima
+ */
+.esqcima {
+    background-color: red;
+    left: 0;
+    top: 0;
+}
+
+/**
+ * Estilo do elemento esquerda/baixo
+ */
+.esqbaixo {
+    background-color: green;
+    left: 0;
+    bottom: 0;
+}
+
+/**
+ * Estilo do elemento direita/cima
+ */
+.dircima {
+    background-color: yellow;
+    right: 0;
+    top: 0;
+}
+
+/**
+ * * Estilo do elemento direita/baixo
+ */
+.dirbaixo {
+    background-color: blue;
+    right: 0;
+    bottom: 0;
+}

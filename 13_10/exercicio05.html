@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Exercicio 04</title>
+</head>
+<body>
+    <!--
+        5.  Faça  uma algoritmo  que  calcule  o salário líquido do  funcionário  da  empresa  XYZ.
+        Leia o salário base e a idade. Calcule o bônus do funcionário, sendo o mesmo calculado pela
+        seguinte  regra  de  negócio:  para  funcionários com  salário  maior  ou  igual  a  1000  e com
+        idade superior a 50 anos, receberá 10% de bônus; funcionários com salário menor
+        de  1000,00    e  com  idade  até  50  anos  receberá  somente  5%.
+        Imprima  o  salário  base,  o bônus do funcionário e o salário líquido.
+    -->
+    <script type="text/javascript">
+    var salario = 0,
+        idade = 0,
+        bonus = 0;
+        salario = parseFloat(prompt('Salário:'), 10);
+        idade = parseInt(prompt('Idade:'), 10);
+        if (salario >= 1000 && idade > 50) {
+            bonus = (10/100);
+        } else if (salario <= 1000 && idade <= 50) {
+            bonus = (5 / 100);
+        }
+        document.write('Salário base: R$'+salario+'<br/>');
+        document.write('Bonus: '+bonus+'%<br/>');
+        document.write('Salário líquido:R$'+salario+' + '+(salario * bonus)+' = '+(salario + (salario * bonus) ) + '<br/>');
+    </script>
+</body>
+</html>

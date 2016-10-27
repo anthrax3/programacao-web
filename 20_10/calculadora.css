@@ -1,0 +1,16 @@
+.calculadora {
+  width: 250px;
+  height: 300px;
+  border: 1px solid #ccc;
+  margin: 0 auto;
+  padding: 5px;
+}
+.calculadora input {
+  padding: 5px;
+  margin: 5px 0;
+  text-align: right;
+}
+.calculadora button {
+  font-size: 15px;
+  margin: 10px;
+}

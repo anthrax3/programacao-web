@@ -1,0 +1,13 @@
+center {
+    width: 35%; /* tamanho do elemento */
+    margin: 0 auto; /* desloca o elemento para o centro */
+}
+h4 {
+    text-align: center;
+    text-decoration: underline;
+    color: gray;
+}
+div {
+    display: inline-block;
+    color: blue;
+}

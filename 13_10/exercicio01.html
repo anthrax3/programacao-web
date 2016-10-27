@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Exercicio 01</title>
+</head>
+<body>
+    <!--
+    1. Ler 3 números inteiros e determinar quantos são iguais
+    -->
+    <script type="text/javascript">
+        var numero1,
+            numero2,
+            numero3;
+            numero1 = prompt('Digite o numero 1');
+            numero2 = prompt('Digite o numero 2');
+            numero3 = prompt('Digite o numero 3'),
+            conta = 0;
+            if (numero1 == numero2) {
+                document.write('Numero 1 é igual a numero 2<br/>');
+                conta++;
+            }
+            if (numero1 == numero3) {
+                document.write('Numero 1 é igual a numero 3<br/>');
+                conta++;
+            }
+            if (numero2 == numero3) {
+                document.write('Numero 2 é igual a numero 3<br/>');
+                conta++;
+            }
+            document.write('São ' + conta + ' numero(s) igual(is)<br/>');
+    </script>
+</body>
+</html>

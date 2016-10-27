@@ -1,0 +1,23 @@
+body {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    color: #993738;
+    text-align: center;
+}
+center {
+    margin: 0 auto;
+    width: 70%;
+}
+ul {
+    list-style: none;
+}
+ul li {
+    float: left;
+}
+ul li img {
+    border: 1px solid #993738;
+    background-color: #ccc;
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    margin: 2px;
+}

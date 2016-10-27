@@ -1,0 +1,48 @@
+#calendario {
+  background-color: #000;
+  color: #fff;
+  font-family: Verdana, arial;
+  padding: 15px;
+  width: 310px;
+}
+#calendario img {
+  border: 1px solid #ccc;
+  width: 310px;
+  height: 200px;
+}
+#calendario h2,
+#calendario h3 {
+  text-align: right;
+}
+#calendario table {
+  font-size: 12px;
+  border: 1px solid #ccc;
+}
+#calendario table th,
+#calendario table td {
+  border: 1px solid #ccc;
+}
+#calendario table th {
+  font-size: 10px;
+  padding: 1px 10px;
+}
+#calendario table td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  text-align: center;
+  background-color: #fff;
+  color: #ccc;
+  font-weight: bold;
+}
+#calendario #feriados {
+  background-color: #fff;
+  padding: 6px;
+}
+#calendario #feriados ul {
+  list-style: none;
+  color: #000;
+  font-size: 9px;
+  padding: 0;
+  font-weight: bold;
+}

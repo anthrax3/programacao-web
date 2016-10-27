@@ -1,0 +1,17 @@
+ul {
+    list-style: none;
+}
+ul li {
+    float: left;
+    padding: 2px 25px;
+    background-color: #993738;
+    text-transform: uppercase;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    color: #fff;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+}
+ul li.active {
+    background-color: #752E2F;
+}
