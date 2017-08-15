@@ -1,2 +1,2 @@
 # programacao-web
-Ftec - Programação web
+Uniftec - Programação web
